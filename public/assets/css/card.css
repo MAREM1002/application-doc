@@ -1,0 +1,31 @@
+/* Styles pour la carte Bootstrap */
+.carde {
+    border: 2px solid #7367f0; /* Bordure bleue */
+    border-radius: 10px; /* Bordures arrondies */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Effets de transition pour l'animation */
+}
+
+.carde:hover {
+    transform: scale(1.05); /* Agrandissement léger au survol */
+    box-shadow: 0 8px 16px rgba(0, 123, 255, 0.3); /* Ombre plus prononcée au survol */
+}
+
+.carde-title {
+    color: #7367f0; /* Couleur du titre */
+    font-weight: bold; /* Titre en gras */
+}
+
+.carde-subtitle {
+    color: #6c757d; /* Couleur du sous-titre */
+    font-style: italic; /* Sous-titre en italique */
+}
+
+.carde-text {
+    color: #333; /* Couleur du texte de la carte */
+    font-size: 14px; /* Taille du texte */
+}
+
+a.text-dark:hover {
+    color: #7367f0; /* Changement de couleur du lien au survol */
+    text-decoration: underline; /* Soulignement du lien au survol */
+}
